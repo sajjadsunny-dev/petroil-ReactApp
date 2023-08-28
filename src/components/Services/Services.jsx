@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <>
             <section class="flex flex-wrap">
-                <div class="w-full md:w-2/4 px-2.5 h-60 pt-7 md:pl-[340px] md:pt-[104px] md:h-[390px]">
+                <div class="w-full md:w-2/4 px-2.5 h-60 pt-7 md:pl-[220px] md:pt-[104px] md:h-[390px]">
                     <h3 class="text-[42px] mb-4 md:mb-0 md:text-[64px] font-bold font-pops">Our Services</h3>
                     <p class="text-sm md:text-base font-medium font-pops md:w-[405px] text-[#6C6C6C]">It is a long established fact that a
                         reader will be

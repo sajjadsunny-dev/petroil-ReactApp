@@ -1,4 +1,5 @@
 import React from 'react'
+import aboutLogo from '../../assets/images/logoabout.png'
 
 const About = () => {
     return (
@@ -7,7 +8,7 @@ const About = () => {
                 <div class="max-w-container mx-auto">
                     <div class="flex justify-between">
                         <div class="mr-[200px]">
-                            <img class="mb-[33px]" src="images/logoabout.png" alt="logo" />
+                            <img class="mb-[33px]" src={aboutLogo} alt="logo" />
                             <ul>
                                 <li><a class="flex items-center mb-[15px]" href="mailto: mail@yourcompany.com">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"

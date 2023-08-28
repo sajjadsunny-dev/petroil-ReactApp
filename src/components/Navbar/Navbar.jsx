@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { FaBars } from 'react-icons/fa'
+import logo from '../../assets/images/logo.png'
 
 const Navbar = () => {
 
@@ -94,7 +95,7 @@ const Navbar = () => {
                 <nav className="navbar-nav ease-linear duration-300 bg-primary py-4 md:py-[27px] w-full relative">
                     <div className="max-w-container px-2 md:px-0 mx-auto">
                         <div className="flex items-center">
-                            <a href="#"><img src="images/logo.png" alt="logo" /></a>
+                            <a href="#"><img src={logo} alt="logo" /></a>
 
                             <div onClick={() => setToggle(!toggle)} className="nav-toggler md:hidden ml-auto mr-2.5 cursor-pointer text-white block md:hidden rounded-lg p-1 border-2 border-primary hover:border-white duration-500 z-30">
                                 <FaBars className='' size='25px' />

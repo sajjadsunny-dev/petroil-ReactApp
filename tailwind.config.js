@@ -21,14 +21,14 @@ export default {
         'myTrans': 'all liner .4s'
       },
       backgroundImage: {
-        'bannerImage': "url('./images/banner.jpg')",
-        'servicesImage': "url('./images/services1.jpg')",
-        'servicesImage2': "url('./images/services2.jpg')",
-        'servicesImage3': "url('./images/services3.jpg')",
-        'company': "url('./images/company.jpg')",
-        'blog1': "url('./images/blog1.jpg')",
-        'blog2': "url('./images/blog2.jpg')",
-        'blog3': "url('./images/blog3.jpg')",
+        'bannerImage': "url('./assets/images/banner.jpg')",
+        'servicesImage': "url('./assets/images/services1.jpg')",
+        'servicesImage2': "url('./assets/images/services2.jpg')",
+        'servicesImage3': "url('./assets/images/services3.jpg')",
+        'company': "url('./assets/images/company.jpg')",
+        'blog1': "url('./assets/images/blog1.jpg')",
+        'blog2': "url('./assets/images/blog2.jpg')",
+        'blog3': "url('./assets/images/blog3.jpg')",
       }
     },
   },
