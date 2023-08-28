@@ -1,0 +1,7 @@
+.sunny a svg path {
+    transition: all .3s linear;
+}
+
+.sunny a:hover svg path {
+    fill: #F40404;
+}

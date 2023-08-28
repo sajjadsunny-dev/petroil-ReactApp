@@ -1,0 +1,29 @@
+.logos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+}
+
+@media (min-width: 240px) and (max-width: 639.99px) {
+    .logos {
+        grid-template-columns: auto auto;
+        column-gap: 16px;
+        row-gap: 16px;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 768.99px) {
+    .logos {
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024.99px) {
+    .logos {
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
